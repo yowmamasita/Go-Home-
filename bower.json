@@ -1,0 +1,9 @@
+{
+  "name": "go-home",
+  "version": "0.0.0",
+  "dependencies": {
+    "reqwest": "~1.1.5",
+    "lodash": "~3.7.0"
+  },
+  "devDependencies": {}
+}

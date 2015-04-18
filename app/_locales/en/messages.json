@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Go Home!",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Book an Uber ride home in a single click",
+    "description": "The description of the application"
+  }
+}
