@@ -54,3 +54,5 @@ reqwest({
     console.log(error);
   },
 });
+
+chrome.browserAction.setBadgeText({text: "x2.1"});
