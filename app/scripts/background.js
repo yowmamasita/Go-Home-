@@ -45,7 +45,6 @@ reqwest({
   crossOrigin: true,
   success: function(resp) {
     console.log(resp);
-    var badgeText = "";
     _.forEach(resp.prices, function(product) {
       if (product.surge_multiplier > 1.0) chrome.browserAction.setBadgeText({text: "SURGE"});
     });
